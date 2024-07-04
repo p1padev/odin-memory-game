@@ -5,6 +5,8 @@
   gap: 10px;
   justify-content: center;
   align-items: center;
+  max-width: 250px;
+  max-height: 250px;
 }
 
 .card img {
