@@ -10,11 +10,11 @@ function App() {
   });
 
   const increaseScore = () => {
-    const current = scoreboard.currentScore;
+    const increased = scoreboard.currentScore + 1;
     const best = scoreboard.bestScore;
     setScoreboard({
-      currentScore: current + 1,
-      bestScore: current > best ? current : best,
+      currentScore: increased,
+      bestScore: increased >= best ? increased : best,
     });
   };
 
@@ -24,6 +24,8 @@ function App() {
       currentScore: 0,
     });
   };
+
+  console.log(scoreboard);
 
   return (
     <>

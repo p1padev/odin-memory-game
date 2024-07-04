@@ -1,0 +1,10 @@
+.scoreboard {
+  display: flex;
+  flex-flow: column wrap;
+  margin-left: auto;
+  text-align: right;
+  background-color: royalblue;
+  padding: 0.5rem;
+  font-size: 0.7rem;
+  color: white;
+}

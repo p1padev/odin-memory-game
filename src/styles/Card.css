@@ -1,0 +1,14 @@
+.card {
+  padding: 0.5rem;
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.card img {
+  width: 100%;
+  max-height: 120px;
+  object-fit: contain;
+}
