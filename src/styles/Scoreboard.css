@@ -8,3 +8,9 @@
   font-size: 0.7rem;
   color: white;
 }
+
+.current-score,
+.best-score {
+  font-size: 0.9rem;
+  font-weight: 700;
+}

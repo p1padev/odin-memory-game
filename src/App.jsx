@@ -25,8 +25,6 @@ function App() {
     });
   };
 
-  console.log(scoreboard);
-
   return (
     <>
       <ScoreboardBar scoreboard={scoreboard}></ScoreboardBar>
