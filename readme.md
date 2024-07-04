@@ -31,4 +31,4 @@ This project is a memory game built with React, inspired by The Office TV show. 
 
 ## Deploy
 
-This project is available at [Vercel]()
+This project is available at [Vercel](https://odin-memory-game-sigma.vercel.app/)
